@@ -1,0 +1,74 @@
+
+.cart-theme-modal {
+    background: #13131a !important; 
+    border: 1px solid rgba(255, 0, 0, 0.4) !important;
+    box-shadow: 0 0 30px rgba(255, 0, 0, 0.2);
+    border-radius: 15px;
+    color: white;
+}
+
+.text-red {
+    color: #ff0000;
+}
+
+.cart-img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    background: #1c1c24;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.remove-btn {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.remove-btn:hover {
+    background: #ff0000;
+    color: white;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 5px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: #13131a;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: 10px;
+}
+
+.btn-red-glow {
+    background: #ff0000;
+    color: white;
+    border: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.4s;
+}
+
+.btn-red-glow:hover {
+    background: #cc0000;
+    box-shadow: 0 0 15px #ff0000;
+    transform: scale(1.02);
+}
+
+
+.modal.fade .modal-dialog {
+    transform: scale(0.8);
+    transition: transform 0.3s ease-out;
+}
+.modal.show .modal-dialog {
+    transform: scale(1);
+}
